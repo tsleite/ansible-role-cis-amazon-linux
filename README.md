@@ -1,3 +1,18 @@
+CIS hardening
+==================
+
+yum update -y && yum install git -y && yum install libselinux-python ;amazon-linux-extras install ansible2
+
+git clone https://github.com/tsleite/ansible-role-cis-amazon-linux.git
+
+cd ansible-role-cis-amazon-linux2/tests && sh run.sh
+
+ansible-playbook playbook.yml -t level-1
+
+
+
+==================
+
 anthcourtney.cis-amazon-linux
 =========
 
